@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(var(--foreground-rgb));
+  background-color: #000;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.gradient-text {
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(350, 45%, 81%, 1) 0%,
+    hsla(254, 57%, 85%, 1) 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
