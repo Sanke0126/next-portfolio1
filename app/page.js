@@ -1,9 +1,9 @@
-import Navbar from "../Components/header";
-import Main from "../Components/main";
-import About from "@/Components/about";
-import Resume from "../Components/resume";
-import Tools from "@/Components/tools";
-import Contact from "@/Components/contact";
+import Navbar from "./Components/header";
+import Main from "./Components/main";
+import About from "@/app/Components/about";
+import Resume from "./Components/resume";
+import Tools from "@/app/Components/tools";
+import Contact from "@/app/Components/contact";
 export default function Page() {
   return (
     <div id="Home" className="relative scroll-smooth">
