@@ -84,7 +84,7 @@ function Navbar() {
         </section>
       </div>
       <div className="fixed pl-[470px]">
-        <ul className="text-[#8B8A91] flex justify-evenly gap-[80px] text-[18px] bg-black bg-opacity-5 rounded-[40px]">
+        <ul className="text-[#8B8A91] flex justify-evenly gap-[80px] text-[18px] bg-black bg-opacity-5 rounded-[40px] cursor-pointer">
           <li
             className={`border-[#303033] rounded-[40px] p-[12px] backdrop-blur-[3px] z-[1000px] ${
               activeButton === "Home" ? "border-[0.5px] text-white" : ""
