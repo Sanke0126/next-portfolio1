@@ -1,10 +1,7 @@
 import { PiStarFourFill } from "react-icons/pi";
-import { FaPaperPlane } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaPaperPlane, FaInstagram, FaDiscord, FaTelegram, FaFacebookMessenger } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import { FaDiscord } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa";
-import { FaFacebookMessenger } from "react-icons/fa";
+
 function Contact() {
   return (
     <section
@@ -53,7 +50,7 @@ function Contact() {
       <div className="mt-[80px] text-[30px]">
         <p className="gradient-text">
           Want to know more about me, tell me about your project or just to say
-          hello? Drop me a line and I'll get back as soon as possible.
+          hello? Drop me a line and I&apos;ll get back as soon as possible.
         </p>
       </div>
       <div className="flex gap-[50px] mt-[60px]">

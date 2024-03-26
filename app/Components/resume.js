@@ -17,10 +17,11 @@ function Resume() {
       </div>
       <div className="text-[#C7C6D3] text-[20px] mt-[20px] text-justify">
         <h1>
-          Be what you would seem to be - or, if you'd like it put more simply -
-          never imagine yourself not to be otherwise than what it might appear
-          to others that what you were or might have been was not otherwise than
-          what you had been would have appeared to them to be otherwise.
+          Be what you would seem to be - or, if you&apos;d like it put more
+          simply - never imagine yourself not to be otherwise than what it might
+          appear to others that what you were or might have been was not
+          otherwise than what you had been would have appeared to them to be
+          otherwise.
         </h1>
       </div>
       <div className="w-full">

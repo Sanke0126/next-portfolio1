@@ -1,14 +1,16 @@
 "use client";
-import { FaFacebook } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaTwitch } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaGithub,
+  FaInstagram,
+  FaYoutube,
+  FaTwitch,
+} from "react-icons/fa";
 import { TbMessageDots } from "react-icons/tb";
 import { Link } from "react-scroll";
 import { useState } from "react";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 function Navbar() {
   const [activeButton, setActiveButton] = useState("Home");
@@ -24,7 +26,12 @@ function Navbar() {
           <section className="flex items-center pt-[20px] mb-[10px]">
             <div>
               {/* Replace <img> with <Image> */}
-              <Image className="w-[60px] h-[60px]" src="/aaa123.png" width={60} height={60} />
+              <Image
+                className="w-[60px] h-[60px]"
+                src="/aaa123.png"
+                width={60}
+                height={60}
+              />
             </div>
             <div>
               <h6 className="font-bold leading-[100%] text-[#E9E9F1] text-[28px]">
@@ -34,7 +41,12 @@ function Navbar() {
             </div>
           </section>
           {/* Replace <img> with <Image> */}
-          <Image className="rounded-[40px] mb-[30px]" src="/hoshnogo.jpg" width={300} height={200} />
+          <Image
+            className="rounded-[40px] mb-[30px]"
+            src="/hoshnogo.jpg"
+            width={300}
+            height={200}
+          />
           <div className="mb-[35px] font-bold">
             <h6 className="text-[16px] text-[#E9E9F1]">
               <p className="text-[#c7c6d3] text-[13px]">Specialization:</p>
@@ -66,7 +78,7 @@ function Navbar() {
           </ul>
           <div className="flex">
             <h6 className="w-full h-[50px] mb-[30px] flex items-center justify-center font-bold text-black text-[16px] rounded-[15px] bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF]">
-              Let's Work Together!
+              Let&apos;s Work Together!
             </h6>
           </div>
         </section>
@@ -134,7 +146,7 @@ function Navbar() {
             </Link>
           </li>
           <span className=" flex items-center p-[10px] gap-[5px] text-black rounded-[15px] bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF]">
-            <a href="#">Let's Talk</a>
+            <a href="#">Let&apos;s Talk</a>
             <TbMessageDots />
           </span>
         </ul>

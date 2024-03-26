@@ -39,7 +39,7 @@ function Tools() {
               width={150}
               height={150}
             />
-            <h1 className="flex justify-center">Javascript</h1>
+            <h1 className="flex justify-center">JavaScript</h1>
           </div>
         </div>
         <div className="border-[0.5px] border-[#303033] w-[150px] h-[150px] rounded-[40px] flex justify-center items-center">
@@ -51,7 +51,7 @@ function Tools() {
               width={150}
               height={150}
             />
-            <h1 className="flex justify-center">Node.Js</h1>
+            <h1 className="flex justify-center">Node.js</h1>
           </div>
         </div>
       </div>

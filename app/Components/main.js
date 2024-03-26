@@ -7,12 +7,12 @@ function Main() {
     <main className="pl-[470px] pt-[100px] pr-[55px] w-full mt-[90px]">
       <div className="text-[#C7C6D3] w-[15%] gap-[10px] p-[8px] justify-center flex items-center border-[0.5px] border-[#303033] rounded-[20px] text-[13px]">
         <PiStarFourFill />
-        <h1>Let's meet!</h1>
+        <h1>Let&apos;s meet!</h1>
       </div>
       <div className="text-[60px] mt-[30px]">
         <span>
           <h1 className="gradient-text">
-            I'm Naranbaatar <br /> Learning Fullstack Developer.
+            I&apos;m Naranbaatar <br /> Learning Fullstack Developer.
           </h1>
         </span>
       </div>

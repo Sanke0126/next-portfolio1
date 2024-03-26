@@ -35,13 +35,13 @@ function About() {
       <div className="flex mt-[70px] w-[100%]">
         <div className="w-[70%] text-justify pr-[5%]">
           <p className="text-[20px] text-[#C7C6D3] mb-[20px] leading-normal">
-            I wonder if I've been changed in the night? Let me think. Was I the
+            I wonder if I&apos;ve been changed in the night? Let me think. Was I the
             same when I got up this morning? I almost think I can remember
-            feeling a little different. But if I'm not the same, the next
-            question is 'Who in the world am I?' Ah, that's the great puzzle!
+            feeling a little different. But if I&apos;m not the same, the next
+            question is &apos;Who in the world am I?&apos; Ah, that&apos;s the great puzzle!
           </p>
           <p className="text-[20px] text-[#C7C6D3] mb-[20px] leading-snug">
-            Be what you would seem to be - or, if you'd like it put more simply
+            Be what you would seem to be - or, if you&apos;d like it put more simply
             - never imagine yourself not to be otherwise than what it might
             appear to others that what you were or might have been was not
             otherwise than what you had been would have appeared to them to be
