@@ -8,19 +8,23 @@ import { TbMessageDots } from "react-icons/tb";
 import { Link } from "react-scroll";
 import { useState } from "react";
 
+import Image from 'next/image';
+
 function Navbar() {
   const [activeButton, setActiveButton] = useState("Home");
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
   };
+
   return (
     <header className="flex scroll-smooth">
       <div className="flex pl-[2rem] fixed">
         <section className="w-[350px] bg-[#161616] border-[0.5px] border-[#303033] rounded-[40px] pl-[30px] pr-[30px]">
           <section className="flex items-center pt-[20px] mb-[10px]">
             <div>
-              <img className="w-[60px] h-[60px]" src="/aaa123.png"></img>
+              {/* Replace <img> with <Image> */}
+              <Image className="w-[60px] h-[60px]" src="/aaa123.png" width={60} height={60} />
             </div>
             <div>
               <h6 className="font-bold leading-[100%] text-[#E9E9F1] text-[28px]">
@@ -29,7 +33,8 @@ function Navbar() {
               </h6>
             </div>
           </section>
-          <img className="rounded-[40px] mb-[30px]" src="/hoshnogo.jpg"></img>
+          {/* Replace <img> with <Image> */}
+          <Image className="rounded-[40px] mb-[30px]" src="/hoshnogo.jpg" width={300} height={200} />
           <div className="mb-[35px] font-bold">
             <h6 className="text-[16px] text-[#E9E9F1]">
               <p className="text-[#c7c6d3] text-[13px]">Specialization:</p>
