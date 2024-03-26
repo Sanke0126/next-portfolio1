@@ -14,7 +14,7 @@ function Contact() {
       </div>
       <div className="text-[46px] mt-[10px]">
         <h1 className="gradient-text">
-          Let's make something awesome together!
+          Let&apos; make something awesome together!
         </h1>
       </div>
       <div className="w-full mt-[40px] flex justify-between gap-[10%]">
