@@ -4,7 +4,7 @@ import About from "@/Components/about";
 import Resume from "../Components/resume";
 import Tools from "@/Components/tools";
 import Contact from "@/Components/contact";
-export default function Home() {
+export default function Page() {
   return (
     <div id="Home" className="relative scroll-smooth">
       <div
