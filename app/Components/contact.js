@@ -60,7 +60,7 @@ function Contact() {
           hello? Drop me a line and I&apos;ll get back as soon as possible.
         </p>
       </div>
-      <div className="flex gap-[20px] sm:gap-[50px] mt-[60px]">
+      <div className="flex gap-[25px] sm:gap-[50px] mt-[60px]">
         <div className="border-[0.5px] border-[#303033] sm:p-0 p-[10px] w-[50px] h-[50px] sm:w-[150px] sm:h-[150px] rounded-[40px] flex justify-center items-center">
           <div className="text-[#58585e] hover:text-[#fff] hover:cursor-pointer hover:scale-[1.1]">
             <Link
