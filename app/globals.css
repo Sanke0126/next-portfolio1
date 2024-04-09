@@ -32,3 +32,6 @@ body::-webkit-scrollbar {
   -webkit-background-clip: text;
   color: transparent;
 }
+.no-scroll {
+  overflow: hidden;
+}

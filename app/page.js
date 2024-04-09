@@ -11,9 +11,9 @@ export default function Page() {
         style={{
           backgroundImage: "url('/bgdaad.webp')",
         }}
-        className="absolute w-full h-[120vh] object-contain bg-center"
+        className="absolute sm:w-full w-full min-h-screen object-contain bg-center"
       ></div>
-      <div className="min-h-screen min-w-screen bg-black p-[3%]">
+      <div className="min-h-screen w-full bg-black p-[3%]">
         <Navbar />
         <Main />
         <About />
