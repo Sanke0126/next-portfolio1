@@ -50,7 +50,7 @@ function Contact() {
           className="bg-black w-full h-[80px] sm:h-[100px] outline-none border-solid border-b-[1px] border-[#303033] text-[#C7C6D3] sm:placeholder:text-[20px] resize-none placeholder:text-[13px]"
         ></textarea>
       </div>
-      <a className="bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF] flex gap-[5px] sm:gap-[10px] p-[6px] sm:p-[13px] items-center w-[130px] sm:w-[200px] rounded-[20px] text-[12px] sm:text-[16px] mt-[20px]">
+      <a className="bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF] flex gap-[5px] sm:gap-[10px] p-[6px] sm:p-[13px] items-center w-[140px] sm:w-[200px] rounded-[20px] text-[12px] sm:text-[16px] mt-[20px]">
         <span className="">Send Message</span>
         <FaPaperPlane className="text-black text-[12px] sm:text-[20px]" />
       </a>
@@ -60,7 +60,7 @@ function Contact() {
           hello? Drop me a line and I&apos;ll get back as soon as possible.
         </p>
       </div>
-      <div className="flex gap-[13px] sm:gap-[50px] mt-[60px]">
+      <div className="flex gap-[20px] sm:gap-[50px] mt-[60px]">
         <div className="border-[0.5px] border-[#303033] sm:p-0 p-[10px] w-[50px] h-[50px] sm:w-[150px] sm:h-[150px] rounded-[40px] flex justify-center items-center">
           <div className="text-[#58585e] hover:text-[#fff] hover:cursor-pointer hover:scale-[1.1]">
             <Link
