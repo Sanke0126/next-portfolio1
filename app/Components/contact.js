@@ -5,6 +5,7 @@ import {
   FaDiscord,
   FaTelegram,
   FaFacebookMessenger,
+  FaGithub,
 } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import Link from "next/link";
@@ -90,8 +91,8 @@ function Contact() {
         </div>
         <div className="border-[0.5px] border-[#303033] sm:p-0 p-[10px] w-[50px] h-[50px] sm:w-[150px] sm:h-[150px] rounded-[40px] flex justify-center items-center">
           <div className="text-[#58585e] hover:text-[#fff] hover:cursor-pointer hover:scale-[1.1]">
-            <Link href="https://web.telegram.org/">
-              <FaTelegram className="sm:text-[80px] text-[30px]" />
+            <Link href="https://github.com/Sanke0126">
+              <FaGithub className="sm:text-[80px] text-[30px]" />
             </Link>
           </div>
         </div>
