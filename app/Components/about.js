@@ -20,19 +20,19 @@ function About() {
       </div>
       <div className="gradient-text sm:flex flex flex-col items-center sm:flex-row gap-[20px] sm:gap-[30px] justify-between mt-[50px] w-[100%]">
         <div className="border-[0.5px] border-[#303033] p-[20px] w-[80%] sm:w-[30%] flex flex-col justify-center items-center  rounded-[40px]">
-          <p className="text-[40px] sm:text-[60px]">40+</p>
+          <p className="text-[40px] sm:text-[60px]">4</p>
           <p className="text-[12px] sm:text-[16px] text-[#C7C6D3]">
-            Happy clients
+            Language Learned
           </p>
         </div>
         <div className="border-[0.5px] border-[#303033] p-[20px] w-[80%] sm:w-[30%] flex flex-col justify-center items-center rounded-[40px]">
-          <p className="text-[40px] sm:text-[60px]">2+</p>
+          <p className="text-[40px] sm:text-[60px]">8+</p>
           <p className="text-[12px] sm:text-[16px] text-[#C7C6D3]">
-            Years of experience
+            Months of experience
           </p>
         </div>
         <div className="border-[0.5px] border-[#303033] p-[20px] w-[80%] sm:w-[30%] flex flex-col justify-center items-center rounded-[40px]">
-          <p className="text-[40px] sm:text-[60px]">50+</p>
+          <p className="text-[40px] sm:text-[60px]">8</p>
           <p className="text-[12px] sm:text-[16px] text-[#C7C6D3]">
             Project done
           </p>
