@@ -41,11 +41,11 @@ function About() {
       <div className="sm:flex flex-col sm:flex-row mt-[50px] sm:mt-[70px] w-[100%]">
         <div className="w-[100%] sm:w-[70%] text-justify sm:pr-[5%]">
           <p className="sm:text-[20px] text-[15px] text-[#C7C6D3] mb-[20px] leading-normal">
-            I wonder if I&apos;ve been changed in the night? Let me think. Was I
-            the same when I got up this morning? I almost think I can remember
-            feeling a little different. But if I&apos;m not the same, the next
-            question is &apos;Who in the world am I?&apos; Ah, that&apos;s the
-            great puzzle!
+            Hey there! I&apos;m Naranbaatar, an aspiring software developer on a
+            quest for growth and excellence. 🚀 Join me as I immerse myself in
+            the world of coding, embracing challenges and transforming ideas
+            into reality. Let&apos;s connect and make a difference together!🌱
+            #SoftwareDeveloper #GrowthMindset
           </p>
           <p className="sm:text-[20px] text-[15px] text-[#C7C6D3] mb-[20px] leading-snug">
             Be what you would seem to be - or, if you&apos;d like it put more
