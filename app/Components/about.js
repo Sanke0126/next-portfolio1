@@ -1,5 +1,6 @@
 import { PiStarFourFill } from "react-icons/pi";
-import { MdOutlineFileDownload } from "react-icons/md";
+import { IoIosSearch } from "react-icons/io";
+import { FaMeta } from "react-icons/fa6";
 
 function About() {
   return (
@@ -54,10 +55,28 @@ function About() {
             otherwise than what you had been would have appeared to them to be
             otherwise.
           </p>
-          <a className="bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF] flex gap-[5px] sm:gap-[10px] p-[8px] sm:p-[13px] items-center sm:w-[200px] w-[150px] rounded-[20px] text-[12px] sm:text-[16px] ">
-            <span className="">Download CV</span>
-            <MdOutlineFileDownload className="text-black text-[20px]" />
-          </a>
+          <div className="flex sm:justify-around justify-between">
+            <a
+              href="https://coursera.org/share/2745bc76494677bc029cee1ee048f536"
+              target="_blank"
+              className="bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF] flex justify-center gap-[5px] sm:gap-[10px] p-[8px] sm:p-[10px] items-center sm:w-[190px] w-[110px] rounded-[20px] text-[12px] sm:text-[16px] "
+            >
+              <span className="sm:block hidden">Meta</span>
+              <span className="">Frontend</span>
+              <IoIosSearch className="text-black text-[22px] sm:block hidden" />
+              <FaMeta className="text-black text-[20px] sm:hidden block" />
+            </a>
+            <a
+              href="https://coursera.org/share/86547120599aebab67244d472d8b755c"
+              target="_blank"
+              className="bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF] flex justify-center gap-[5px] sm:gap-[10px] p-[8px] sm:p-[13px] items-center sm:w-[190px] w-[110px] rounded-[20px] text-[12px] sm:text-[16px] "
+            >
+              <span className="sm:block hidden">Meta</span>
+              <span className="">Backend</span>
+              <IoIosSearch className="text-black text-[22px] sm:block hidden" />
+              <FaMeta className="text-black text-[20px] sm:hidden block" />
+            </a>
+          </div>
         </div>
         <div className="text-[#E9E9F1] w-full sm:w-[30%] mt-[20px]">
           <h6 className="text-[15px] sm:text-[18px]">
