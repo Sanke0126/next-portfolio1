@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaYoutube,
   FaTwitch,
+  FaDiscord,
 } from "react-icons/fa";
 import { TbAccessPoint } from "react-icons/tb";
 import { TbMessageDots } from "react-icons/tb";
@@ -163,20 +164,36 @@ function Navbar() {
                 </h6>
               </div>
               <ul className="flex w-full justify-center gap-[12px] text-white text-[20px] mb-[10px]">
-                <li className="border-[0.5px] border-[#303033] rounded-[2rem] w-[40px] h-[40px] flex justify-center items-center">
+                <a
+                  href="https://github.com/Sanke0126?tab=repositories"
+                  target="_blank"
+                  className="border-[0.5px] border-[#303033] rounded-[2rem] w-[40px] h-[40px] flex justify-center items-center"
+                >
                   <FaGithub />
-                </li>
-                <li className="border-[0.5px] border-[#303033] rounded-[2rem] w-[40px] h-[40px] flex justify-center items-center">
+                </a>
+                <a
+                  href="https://www.facebook.com/Naranbaatar.NB"
+                  target="_blank"
+                  className="border-[0.5px] border-[#303033] rounded-[2rem] w-[40px] h-[40px] flex justify-center items-center"
+                >
                   <FaFacebook />
-                </li>
-                <li className="border-[0.5px] border-[#303033] rounded-[2rem] w-[40px] h-[40px] flex justify-center items-center">
+                </a>
+                <a
+                  href="https://www.instagram.com/naranbaatarbatdorzh/"
+                  target="_blank"
+                  className="border-[0.5px] border-[#303033] rounded-[2rem] w-[40px] h-[40px] flex justify-center items-center"
+                >
                   <FaInstagram />
-                </li>
+                </a>
+                <a
+                  href="https://discord.com/users/241813497904758784"
+                  target="_blank"
+                  className="border-[0.5px] border-[#303033] rounded-[2rem] w-[40px] h-[40px] flex justify-center items-center"
+                >
+                  <FaDiscord />
+                </a>
                 <li className="border-[0.5px] border-[#303033] rounded-[2rem] w-[40px] h-[40px] flex justify-center items-center">
                   <FaYoutube />
-                </li>
-                <li className="border-[0.5px] border-[#303033] rounded-[2rem] w-[40px] h-[40px] flex justify-center items-center">
-                  <FaTwitch />
                 </li>
               </ul>
               <div className="flex">

@@ -4,7 +4,7 @@ function Resume() {
   return (
     <section
       id="Resume"
-      className="sm:pl-[470px] pt-[50px] sm:pt-[100px] sm:pr-[55px] w-full mt-[50px]"
+      className="sm:pl-[470px] pt-[50px] sm:pt-[50px] sm:pr-[55px] w-full mt-[50px]"
     >
       <div className="text-[#C7C6D3] w-[35%] sm:w-[15%] gap-[10px] p-[5px] sm:p-[8px] justify-center flex items-center border-[0.5px] border-[#303033] rounded-[20px] text-[10px] sm:text-[13px]">
         <PiStarFourFill />

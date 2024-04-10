@@ -55,7 +55,7 @@ function About() {
             otherwise than what you had been would have appeared to them to be
             otherwise.
           </p>
-          <div className="flex sm:justify-around justify-between">
+          <div className="flex sm:justify-around justify-between sm:mt-[80px]"> 
             <a
               href="https://coursera.org/share/2745bc76494677bc029cee1ee048f536"
               target="_blank"
